@@ -48,8 +48,8 @@ variable "listener" {
 
 variable "access_logs" {
   description = "An access logs block"
-  type        = "list"
-  default     = []
+  type        = "map"
+  default     = {}
 }
 
 variable "health_check" {

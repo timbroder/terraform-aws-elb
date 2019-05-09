@@ -6,7 +6,7 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| access_logs | An access logs block | list | `<list>` | no |
+| access_logs | An access logs block | list | `<map>` | no |
 | connection_draining | Boolean to enable connection draining | string | `false` | no |
 | connection_draining_timeout | The time in seconds to allow for connections to drain | string | `300` | no |
 | cross_zone_load_balancing | Enable cross-zone load balancing | string | `true` | no |

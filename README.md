@@ -43,11 +43,9 @@ module "elb_http" {
     },
   ]
 
-  access_logs = [
-    {
-      bucket = "my-access-logs-bucket"
-    },
-  ]
+  access_logs = {
+    bucket = "my-access-logs-bucket"
+  }
 
   // ELB attachments
   number_of_instances = 2
